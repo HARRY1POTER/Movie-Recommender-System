@@ -256,7 +256,7 @@ document.getElementById("movie-search").addEventListener("input", function () {
     "The Dark Knight",
     "The Prestige",
     "Memento",
-  ];
+  ]; 
 
   // Filter and display matching suggestions
   if (input) {
