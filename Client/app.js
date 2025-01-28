@@ -259,7 +259,7 @@ document.getElementById("movie-search").addEventListener("input", function () {
   ]; 
 
   // Filter and display matching suggestions
-  if (input) {
+  if (input) { 
     const filteredMovies = movies.filter((movie) =>
       movie.toLowerCase().includes(input)
     );
